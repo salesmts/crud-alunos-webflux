@@ -1,10 +1,8 @@
 package com.osfdigital.reactivecrud.model;
 
-import io.r2dbc.postgresql.util.GeneratedValuesUtils;
 import lombok.*;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
-import reactor.tools.shaded.net.bytebuddy.dynamic.loading.InjectionClassLoader;
 
 import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
